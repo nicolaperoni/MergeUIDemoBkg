@@ -591,7 +591,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Motor Settings"}
+      Value: {"LocaleId":"en-US","Text":"Settings"}
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -684,7 +684,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 85.0
+      Value: 165.0
   - Name: MotorLabel
     Type: Label
     Children:
@@ -702,34 +702,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
-  - Name: Image
-    Type: Image
-    Children:
-    - Name: Path
-      Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "ns=8;%PROJECTDIR%/bigmotor.png"
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 160.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 240.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 240.0
+      Value: 170.0
   - Name: Label1
     Type: Label
     Children:
@@ -786,6 +759,11 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#000000"
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
   - Name: Label2
     Type: Label
     Children:
@@ -847,3 +825,8 @@ Children:
       DataType: InputTypeEnum
       ModellingRule: Optional
       Value: 0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
