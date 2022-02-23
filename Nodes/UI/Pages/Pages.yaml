@@ -684,7 +684,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 165.0
+      Value: 104.0
   - Name: MotorLabel
     Type: Label
     Children:
@@ -702,7 +702,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 109.0
   - Name: Label1
     Type: Label
     Children:
@@ -715,12 +715,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 429.0
+      Value: 290.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 166.0
+      Value: 218.0
   - Name: Speed_TextBox
     Type: TextBox
     Children:
@@ -748,12 +748,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 510.0
+      Value: 371.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 160.0
+      Value: 212.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -776,12 +776,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 380.0
+      Value: 241.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 233.0
+      Value: 285.0
   - Name: Acceleration_TextBox
     Type: TextBox
     Children:
@@ -809,12 +809,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 510.0
+      Value: 371.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 224.0
+      Value: 276.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
